@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
@@ -8,10 +10,11 @@ const modalSlice = createSlice({
   name: 'modal',
   initialState,
   reducers: {
-    openModal: (state, action) => {
+    // eslint-disable-next-line no-unused-vars
+    openModal: (state, _action) => {
       state.isOpen = true;
     },
-    closeModal: (state, action) => {
+    closeModal: (state, _action) => {
       state.isOpen = false;
     },
   },
