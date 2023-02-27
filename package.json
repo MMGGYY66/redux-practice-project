@@ -1,5 +1,5 @@
 {
-  "name": "redux-toolkit-tutorial",
+  "name": "redux-practice-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,5 +37,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "#### React Course",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMGGYY66/redux-practice-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMGGYY66/redux-practice-project/issues"
+  },
+  "homepage": "https://github.com/MMGGYY66/redux-practice-project#readme"
 }
